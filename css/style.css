@@ -1,0 +1,439 @@
+html {
+  height: 100%;
+
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#fefefe,#a8b8b9);
+  margin: 0;
+}
+#container {
+  min-height:100%;
+  position:relative;
+}
+#header {
+  background-color: #7f8c8d;
+  width: 100%;
+  height: auto;
+  padding-top: 7.5px;
+  padding-top: 7.5px;
+  z-index: 1;
+}
+#header #better {
+  font-family: "Pluto Sans Thin";
+	font-size: 36px;
+  color: #b8cccd;
+  padding: 10px;
+
+}
+#header #cases {
+  font-family: "Pluto Sans Thin";
+	font-size: 36px;
+  color: #9aabac;
+
+
+}
+#content {
+  padding:10px;
+  padding-bottom:35px;
+}
+#backbox {
+  width: 1820px;
+  height: 820px;
+  background-color: rgba(154, 171, 172, 0.34);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:35px;
+  background:#7f8c8d;
+  padding-top: 10px;
+  z-index: 2;
+}
+#footer #footertext {
+  font-family: "Pluto Sans Thin";
+	font-size: 24px;
+  color: #b8cccd;
+  padding-left: 35%;
+}
+#luckywinners {
+  position: relative;
+  width: 1740px;
+  height: 265px;
+  background-color: #9aabac;
+  left: 2.25%;
+  right: 2.25%;
+  top: 5%;
+  bottom:5%;
+}
+#luckywinners #luckywtext {
+  font-family: "Pluto Sans Thin";
+  font-size: 30px;
+  color: #616c6d;
+  z-index: 2;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+#luckywitembar {
+  z-index: 3;
+	width: 1740px;
+	height: 174px;
+	background-color: #6e797a;
+	-webkit-box-shadow: inset 0 0 29px rgba(0,0,0,.13);
+	-moz-box-shadow: inset 0 0 29px rgba(0,0,0,.13);
+	box-shadow: inset 0 0 29px rgba(0,0,0,.13);
+	background-image: -webkit-linear-gradient(bottom, #9aabac, #8fa0a1);
+	background-image: -moz-linear-gradient(bottom, #9aabac, #8fa0a1);
+	background-image: -o-linear-gradient(bottom, #9aabac, #8fa0a1);
+	background-image: -ms-linear-gradient(bottom, #9aabac, #8fa0a1);
+	background-image: linear-gradient(to top, #9aabac, #8fa0a1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+#spinner {
+	width: 1279px;
+	height: 435px;
+	background-color: #9aabac;
+  left: 2.25%;
+  right: 2.25%;
+  top: 10%;
+  bottom:5%;
+  position: relative;
+  overflow: hidden
+}
+#profile {
+	width: 417px;
+	height: 435px;
+	background-color: #9aabac;
+  left: 75%;
+  right: 2.25%;
+  top: -42.95%;
+  bottom:5%;
+  position: relative;
+}
+#enclosurepng {
+  left: 1.6%;
+  right: 0;
+  top: 5%;
+  bottom:0;
+  z-index: 3;
+  position: absolute;
+}
+#backing {
+  z-index: 2;
+  left: 1.6%;
+  right: 0;
+  top: 5%;
+  bottom:0;
+  position: absolute;
+}
+#knives {
+	width: 217px;
+	height: 104px;
+	-webkit-border-radius: 9px/10px 10px 11px 11px;
+	-moz-border-radius: 9px/10px 10px 11px 11px;
+	border-radius: 9px/10px 10px 11px 11px;
+	background-color: rgba(122,136,137,.56);
+	-webkit-box-shadow: 0 7px #caab05;
+	-moz-box-shadow: 0 7px #caab05;
+	box-shadow: 0 7px #caab05;
+  position: absolute;
+  left: 61.8%;
+  right: 0;
+  top: 70%;
+  bottom:0;
+}
+#covert {
+	width: 217px;
+	height: 104px;
+	-webkit-border-radius: 9px/10px 10px 11px 11px;
+	-moz-border-radius: 9px/10px 10px 11px 11px;
+	border-radius: 9px/10px 10px 11px 11px;
+	background-color: rgba(122,136,137,.56);
+	-webkit-box-shadow: 0 7px #eb4b4b;
+	-moz-box-shadow: 0 7px #eb4b4b;
+	box-shadow: 0 7px #eb4b4b;
+  position: absolute;
+  left: 41.7%;
+  right: 0;
+  top: 70%;
+  bottom:0;
+}
+#classified {
+	width: 217px;
+	height: 104px;
+	-webkit-border-radius: 9px/10px 10px 11px 11px;
+	-moz-border-radius: 9px/10px 10px 11px 11px;
+	border-radius: 9px/10px 10px 11px 11px;
+	background-color: rgba(122,136,137,.56);
+	-webkit-box-shadow: 0 7px #d32ce6;
+	-moz-box-shadow: 0 7px #d32ce6;
+	box-shadow: 0 7px #d32ce6;
+  position: absolute;
+  left: 21.8%;
+  right: 0;
+  top: 70%;
+  bottom:0;
+}
+#restricted {
+	width: 217px;
+	height: 104px;
+	-webkit-border-radius: 9px/10px 10px 11px 11px;
+	-moz-border-radius: 9px/10px 10px 11px 11px;
+	border-radius: 9px/10px 10px 11px 11px;
+	background-color: rgba(122,136,137,.56);
+	-webkit-box-shadow: 0 7px #8847ff;
+	-moz-box-shadow: 0 7px #8847ff;
+	box-shadow: 0 7px #8847ff;
+  position: absolute;
+  left: 1.6%;
+  right: 0;
+  top: 70%;
+  bottom:0;
+}
+#contraband {
+	width: 217px;
+	height: 104px;
+	-webkit-border-radius: 9px/10px 10px 11px 11px;
+	-moz-border-radius: 9px/10px 10px 11px 11px;
+	border-radius: 9px/10px 10px 11px 11px;
+	background-color: rgba(122,136,137,.56);
+	-webkit-box-shadow: 0 7px #886a08;
+	-moz-box-shadow: 0 7px #886a08;
+	box-shadow: 0 7px #886a08;
+  position: absolute;
+  left: 81.55%;
+  right: 0;
+  top: 70%;
+  bottom:0;
+}
+#restrictednumber {
+	font-family: "South Park";
+	font-size: 72px;
+	color: #7f8c8d;
+	text-shadow:0 -3px rgba(0,0,0,.13);
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10%);
+  }
+#classifiednumber {
+	font-family: "South Park";
+	font-size: 72px;
+	color: #7f8c8d;
+	text-shadow:0 -3px rgba(0,0,0,.13);
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10%);
+  }
+#contrabandnumber {
+	font-family: "South Park";
+	font-size: 72px;
+	color: #7f8c8d;
+	text-shadow:0 -3px rgba(0,0,0,.13);
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10%);
+  }
+#knivesnumber {
+	font-family: "South Park";
+	font-size: 72px;
+	color: #7f8c8d;
+	text-shadow:0 -3px rgba(0,0,0,.13);
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10%);
+  }
+#covertnumber {
+	font-family: "South Park";
+	font-size: 72px;
+	color: #7f8c8d;
+	text-shadow:0 -3px rgba(0,0,0,.13);
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10%);
+  }
+#contrabandtext {
+	font-family: "Pluto Sans Light";
+	font-size: 22px;
+	color: #4e5657;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(250%);
+}
+#covertext {
+	font-family: "Pluto Sans Light";
+	font-size: 22px;
+	color: #4e5657;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(250%);
+}
+#restrictedtext {
+	font-family: "Pluto Sans Light";
+	font-size: 22px;
+	color: #4e5657;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(250%);
+}
+#classifiedtext {
+	font-family: "Pluto Sans Light";
+	font-size: 22px;
+	color: #4e5657;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(250%);
+}
+#knivestext {
+	font-family: "Pluto Sans Light";
+	font-size: 22px;
+	color: #4e5657;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%) translateY(250%);
+}
+#Tobeanim2 {
+  z-index: 2;
+  position: relative;
+  right: 3287px;
+  top: 21px;
+}
+#hider {
+  width: 1237px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  left: 21px;
+}
+#Caseenclosure {
+  z-index: 3;
+  position: absolute;
+}
+#backing {
+  z-index: 1;
+  position: absolute;
+}
+#gunname1 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname1 span {font-size: 13px;}
+#gunname2 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname2 span {font-size: 13px;}
+#gunname3 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname3 span {font-size: 13px;}
+#gunname4 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname4 span {font-size: 13px;}
+#gunname5 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname5 span {font-size: 13px;}
+#gunname6 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname6 span {font-size: 13px;}
+#gunname7 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname7 span {font-size: 13px;}
+#gunname8 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname8 span {font-size: 13px;}
+#gunname9 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname9 span {font-size: 13px;}
+#gunname10 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname10 span {font-size: 13px;}
+#gunname11 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname11 span {font-size: 13px;}
+#gunname12 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname12 span {font-size: 13px;}
+#gunname13 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname13 span {font-size: 13px;}
+#gunname14 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname14 span {font-size: 13px;}
+#gunname15 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname15 span {font-size: 13px;}
+#gunname16 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname16 span {font-size: 13px;}
+#gunname17 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname17 span {font-size: 13px;}
+#gunname18 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname18 span {font-size: 13px;}
+#gunname19 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname19 span {font-size: 13px;}
+#gunname20 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname20 span {font-size: 13px;}
+#gunname21 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname21 span {font-size: 13px;}
+#gunname22 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname22 span {font-size: 13px;}
+#gunname23 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname23 span {font-size: 13px;}
+#gunname24 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname24 span {font-size: 13px;}
+#gunname25 {position: absolute; bottom: -7px; right: 105px; font-family: "Pluto Sans"; color: #dedede; font-size: 16px;  line-height: 93%;}
+#gunname25 span {font-size: 13px;}
+#pos25 {padding-left:4392px; position: absolute;}
+#pos24 {padding-left:4209px; position: absolute;}
+#pos23 {padding-left:4026px; position: absolute;}
+#pos22 {padding-left:3843px; position: absolute;}
+#pos21 {padding-left:3660px; position: absolute;}
+#pos20 {padding-left:3477px; position: absolute;}
+#pos19 {padding-left:3294px; position: absolute;}
+#pos18 {padding-left:3111px; position: absolute;}
+#pos17 {padding-left:2928px; position: absolute;}
+#pos16 {padding-left:2745px; position: absolute;}
+#pos15 {padding-left:2562px; position:absolute;}
+#pos14 {padding-left:2379px; position: absolute;}
+#pos13 {padding-left:2196px; position: absolute;}
+#pos12 {padding-left:2013px; position: absolute;}
+#pos11 {padding-left:1830px; position: absolute;}
+#pos10 {padding-left:1647px; position: absolute;}
+#pos9 {padding-left:1464px; position: absolute;}
+#pos8 {padding-left:1281px; position: absolute;}
+#pos7 {padding-left:1098px; position: absolute;}
+#pos6 {padding-left:915px; position: absolute;}
+#pos5 {padding-left:732px; position: absolute;}
+#pos4 {padding-left:549px; position: absolute;}
+#pos3 {padding-left:366px; position: absolute;}
+#pos2 {padding-left:183px; position: absolute;}
+#pos1 {position: absolute;}
+#gun1 {position: absolute; right: 20px; top: 15px;}
+#gun2 {position: absolute; right: 20px; top: 15px;}
+#gun3 {position: absolute; right: 20px; top: 15px;}
+#gun4 {position: absolute; right: 20px; top: 15px;}
+#gun5 {position: absolute; right: 20px; top: 15px;}
+#gun6 {position: absolute; right: 20px; top: 15px;}
+#gun7 {position: absolute; right: 20px; top: 15px;}
+#gun8 {position: absolute; right: 20px; top: 15px;}
+#gun9 {position: absolute; right: 20px; top: 15px;}
+#gun10 {position: absolute; right: 20px; top: 15px;}
+#gun11 {position: absolute; right: 20px; top: 15px;}
+#gun12 {position: absolute; right: 20px; top: 15px;}
+#gun13 {position: absolute; right: 20px; top: 15px;}
+#gun14 {position: absolute; right: 20px; top: 15px;}
+#gun15 {position: absolute; right: 20px; top: 15px;}
+#gun16 {position: absolute; right: 20px; top: 15px;}
+#gun17 {position: absolute; right: 20px; top: 15px;}
+#gun18 {position: absolute; right: 20px; top: 15px;}
+#gun19 {position: absolute; right: 20px; top: 15px;}
+#gun20 {position: absolute; right: 20px; top: 15px;}
+#gun21 {position: absolute; right: 20px; top: 15px;}
+#gun22 {position: absolute; right: 20px; top: 15px;}
+#gun23 {position: absolute; right: 20px; top: 15px;}
+#gun24 {position: absolute; right: 20px; top: 15px;}
+#gun25 {position: absolute; right: 20px; top: 15px;}
